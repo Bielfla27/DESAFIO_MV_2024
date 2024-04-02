@@ -1,0 +1,74 @@
+body {
+    background-image: url('img/café_da_manha.jpg');
+    background-size: cover; /* Isso fará com que a imagem cubra todo o espaço disponível, mantendo sua proporção */
+    background-position: center; /* Isso centraliza a imagem no fundo */
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    margin-left: 200px;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+}
+
+
+#titulo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100;
+    font-family: "Imbue";
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.texte{
+    display: block; 
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bnt_entrar{
+    width: 350px;
+    height: 32px;
+    color: white; /* Cor do texto */
+    background-color: #420E24; /* Cor de fundo */
+    border: none; /* Remove a borda padrão */
+    border-radius: 10px; /* Define bordas arredondadas */
+    cursor: pointer; /* Altera o cursor ao passar por cima do botão */
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#nome{
+    width: 470px;
+    height: 32px;
+    border: none;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0.1, 0.1, 0.1, 0.3); /* Adiciona um efeito de sombra */
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#cpf{
+    width: 470px;
+    height: 32px;
+    border: none;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0.1, 0.1, 0.1, 0.3); /* Adiciona um efeito de sombra */
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#cpf::placeholder {
+    padding: 10px; /* Adiciona espaçamento ao texto do placeholder */
+}
+
+#nome::placeholder {
+    padding: 10px; /* Adiciona espaçamento ao texto do placeholder */
+}
