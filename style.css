@@ -24,14 +24,14 @@ body {
     margin-top: -20px;
 }
 
-.texte{
+.form_filho{
     display: block; 
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#bnt_entrar{
+#bnt_entrar,#bnt_tela, #bnt_lista_alimento{
     width: 350px;
     height: 32px;
     color: white; /* Cor do texto */
@@ -44,7 +44,7 @@ body {
     font-style: normal;
 }
 
-#nome{
+#nome,#cpf, #alimento{
     width: 470px;
     height: 32px;
     border: none;
@@ -55,21 +55,6 @@ body {
     font-style: normal;
 }
 
-#cpf{
-    width: 470px;
-    height: 32px;
-    border: none;
-    border-radius: 10px; /* Adiciona bordas arredondadas */
-    box-shadow: 2px 2px 5px rgba(0.1, 0.1, 0.1, 0.3); /* Adiciona um efeito de sombra */
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-#cpf::placeholder {
-    padding: 10px; /* Adiciona espaçamento ao texto do placeholder */
-}
-
-#nome::placeholder {
+#cpf::placeholder,#nome::placeholder, #alimento::placeholder  {
     padding: 10px; /* Adiciona espaçamento ao texto do placeholder */
 }
